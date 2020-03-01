@@ -11,5 +11,5 @@ My code does *only include the send a tweet functionality*
 without user management or anything else
 
 
-<img src="/Tweetie.PNG" width="150px" height="auto" />
+<img src="/Tweetie.PNG" width="450px" height="auto" />
 
