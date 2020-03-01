@@ -5,10 +5,10 @@ Backend: Python, MongoDB**
 
 Backend ToUse:
 PIP install pymongo, flask, flask_cors
-And install MongoDB on your device
-
+and install MongoDB on your device
+<p style="front-color:red">
 My code does *only include the send a tweet functionality* 
-without user management or anything else
+without user management or anything else</p>
 
 <p align="center">
 <img src="/Tweetie.PNG" width="450px" height="auto" /></p>
