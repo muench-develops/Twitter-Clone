@@ -10,6 +10,6 @@ And install MongoDB on your device
 My code does *only include the send a tweet functionality* 
 without user management or anything else
 
-
-<img src="/Tweetie.PNG" width="450px" height="auto" />
+<p align="center">
+<img src="/Tweetie.PNG" width="450px" height="auto" /></p>
 
