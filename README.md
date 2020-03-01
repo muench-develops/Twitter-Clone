@@ -10,4 +10,7 @@ And install MongoDB on your device
 My code does *only include the send a tweet functionality* 
 without user management or anything else
 
+
+<p align="center">
 ![](/Tweetie.PNG)
+</p>
