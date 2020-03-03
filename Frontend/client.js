@@ -22,6 +22,7 @@ textarea.addEventListener("input", event => {
     const maxLength = target.getAttribute("maxlength");
     const currentLength = target.value.length;
     if (currentLength >= maxLength) {
+        //ToDo
         alert('Es sind maximal 280 Zeichen zulässig');
     }
     counting.textContent = `${currentLength} / ${maxLength} Zeichen`;
@@ -34,7 +35,8 @@ form.addEventListener('submit', (event) => {
 
     //Check for empty string and length
     if (!$("#Message").val() && message.length <= 280) {
-        window.alert("Eine Nachricht darf nicht leer sein und nicht mehr als 280 Zeichen beinhalten!");
+        //ToDo
+        alert("Eine Nachricht darf nicht leer sein und nicht mehr als 280 Zeichen beinhalten!");
     }
     else{
         //Show Loading and hide form
