@@ -20,7 +20,7 @@ col = db["messages"]
 #Api: Write Database Tweetie
 @app.route('/api/tweetie/', methods=['POST'])
 @cross_origin(origin='*', headers='Content-Type')
-def writeOneTweetie():
+def write_one_tweetie():
     logging.info('API Aufruf')
     if request.is_json:
         message = request.json["message"]
@@ -36,7 +36,7 @@ def writeOneTweetie():
 #Get Tweeties
 @app.route('/api/tweetie/', methods=['GET'])
 @cross_origin(origin='*', headers='Content-Type')
-def readAllTweeties():
+def read_all_tweeties():
     tweeties = []
     for doc in col.find():
         t = Tweetie(doc["message"],"Admin",str(doc["date"]))
